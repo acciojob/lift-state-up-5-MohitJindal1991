@@ -4,7 +4,7 @@ function Child(props) {
   const { state } = props;
 
   return (
-    <>
+    <form onSubmit={() => state(true)}>
       <div>
         <label htmlFor="username">Username:</label>
         <input type="text" id="username" />
@@ -15,8 +15,8 @@ function Child(props) {
         <input type="password" id="pass" />
       </div>
 
-      <button onClick={() => state(true)}>Login</button>
-    </>
+      <button type="submit">Login</button>
+    </form>
   );
 }
 export default Child;
