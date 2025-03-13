@@ -14,7 +14,7 @@ function Child(props){
       <input type="password" id="pass" />
       </div>
 
-      <button onClick={props.useState}>Login</button>
+      <button onClick={props.state}>Login</button>
     </>
   )
   
