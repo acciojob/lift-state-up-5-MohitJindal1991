@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import {useState} from 'react;
+import {useState} from 'react';
 import Child from './Child.jsx';
 const App = () => {
 
@@ -11,7 +11,6 @@ const App = () => {
     <h1>Parent Component</h1>
     {isLoggedIn?<p>You are Logged in!</p>:<Child state={setIsLoggedIn}/>}
         {/* Do not remove the main div */}
-    
     </div>
   )
 }
