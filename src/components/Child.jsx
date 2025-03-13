@@ -2,6 +2,8 @@ import React from 'react';
 
 function Child(props){
 
+  const {state}=props;
+
   return (
     <>
       <div>
@@ -14,7 +16,7 @@ function Child(props){
       <input type="password" id="pass" />
       </div>
 
-      <button onClick={props.state}>Login</button>
+      <button onClick={()=>state(true)}>Login</button>
     </>
   )
   
