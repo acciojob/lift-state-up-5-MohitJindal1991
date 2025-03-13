@@ -8,7 +8,7 @@ function Child(props){
     <>
       <div>
       <label htmlFor="username">Username:</label>
-      <input type="text" id=""username"  />
+      <input type="text" id="username"  />
       </div>
 
       <div>
