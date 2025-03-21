@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <div>
-      {isLoggedIn ? <p>You are Logged in!</p> : <Child setIsLoggedIn={setIsLoggedIn} />}
+      {isLoggedIn ? <p>You are logged in!</p> : <Child setIsLoggedIn={setIsLoggedIn} />}
     </div>
   );
 };
